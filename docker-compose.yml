@@ -1,9 +1,6 @@
 services:
   razzia:
-    image: 
-ralex91/razzia
-:
-4.1
+    image: ralex91/razzia:4.1
     restart: unless-stopped
     environment:
       TZ: Asia/Shanghai
