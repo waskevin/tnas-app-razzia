@@ -1,0 +1,13 @@
+{
+  "name": "Razzia",
+  "source": "https://github.com/Ralex91/Razzia",
+  "docker_image": "ralex91/razzia:4.1",
+  "version": "4.1",
+  "repository": "https://github.com/waskevin/tnas-app-razzia",
+  "architectures": [
+    "linux/amd64",
+    "linux/arm64"
+  ],
+  "description": "Razzia container application prepared for TerraMaster TOS",
+  "submission_status": "not_submitted"
+}
