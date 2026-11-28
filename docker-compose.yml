@@ -2,5 +2,10 @@ services:
   razzia:
     image: ralex91/razzia:4.1
     restart: unless-stopped
+    user: "1000:1000"
+    ports:
+      - "14561:3000"
+    volumes:
+      - ./data:/data
     environment:
       TZ: Asia/Shanghai

@@ -4,7 +4,7 @@ TOS 应用仓库说明：Razzia 的容器化部署与应用中心打包准备。
 
 ## 应用简介
 
-Razzia 是一个可在自有 NAS 上运行的容器应用。
+Razzia 是面向小型活动的自托管开源问答平台，可在自有 NAS 上运行。
 
 - 上游项目：https://github.com/Ralex91/Razzia
 - Docker 镜像：ralex91/razzia:4.1
@@ -50,5 +50,5 @@ docker run -d --name razzia --restart unless-stopped -e TZ=Asia/Shanghai ralex91
 ## 仓库文件
 
 - README.md：项目说明与双架构部署说明。
-- pp-metadata.json：镜像、版本和架构元数据。
+- app-metadata.json：镜像、版本和架构元数据。
 - docker-compose.yml：基础容器启动示例。
